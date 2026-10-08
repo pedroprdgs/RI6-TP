@@ -1,0 +1,25 @@
+{
+  "name": "ri6-tp",
+  "version": "1.0.0",
+  "description": "Para aprender, adequadamente, a programação orientada à objetos é preciso treinar!",
+  "homepage": "https://github.com/pedroprdgs/RI6-TP#readme",
+  "bugs": {
+    "url": "https://github.com/pedroprdgs/RI6-TP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroprdgs/RI6-TP.git"
+  },
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "npx tsx src/main.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
